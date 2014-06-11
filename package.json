@@ -1,0 +1,26 @@
+{
+  "name": "pipe-event",
+  "version": "0.0.0",
+  "description": "Pipe an event from an event emitter to another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neoziro/pipe-event.git"
+  },
+  "keywords": [
+    "pipe",
+    "forward",
+    "events",
+    "event",
+    "emitter"
+  ],
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neoziro/pipe-event/issues"
+  },
+  "homepage": "https://github.com/neoziro/pipe-event"
+}
