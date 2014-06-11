@@ -1,9 +1,9 @@
 /**
  * Pipe an event from an event emitter to another.
  *
- * @param {string|string[]} events
- * @param {EventEmitter} source
- * @param {EventEmitter} target
+ * @param {string|string[]} events Events to pipe
+ * @param {EventEmitter} source Source event emitter
+ * @param {EventEmitter} target Target event emitter
  */
 
 module.exports = function (events, source, target) {
