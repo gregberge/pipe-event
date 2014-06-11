@@ -18,6 +18,14 @@ var pipeEvent = require('pipe-event');
 pipeEvent(['error', 'complete'], sourceEventEmitter, targetEventEmitter);
 ```
 
+### pipeEvent(events, source, target)
+
+```
+  {string|string[]} events Events to pipe
+  {EventEmitter} source Source event emitter
+  {EventEmitter} target Target event emitter
+```
+
 ## License
 
 MIT
